@@ -1,0 +1,50 @@
+ body {
+     background-color:lavenderblush;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     min-height:100vh;
+     margin:0;
+     font-family:'Lato', sans-serif;
+     
+ }
+ /* justify content aligns the flex content to the center here*/
+h2 {
+    
+    text-align:center;
+    position:relative;
+}
+#balance
+{
+    text-align:center;
+}
+h4 {
+text-align:center;
+}
+.incomeExpense
+{
+  align-content:center;
+    width:30%;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px grey;
+    padding:20px;
+    display:flex;
+    justify-content:center ;
+    margin:20px 0;
+}
+.incomeExpense>div{
+    flex:1;
+    text-align:center;
+}
+.incomeExpense>div:first-of-type
+{
+border-right:1px solid black;
+}
+#incomepara
+{
+    color:green;
+}
+#expensepara
+{
+    color:red;
+}
